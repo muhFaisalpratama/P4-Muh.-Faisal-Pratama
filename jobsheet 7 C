@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+main (){
+printf ("Nama : Muh. Faisal Pratama\n");
+printf ("Nim : F1B019092\n ");
+printf ("Kelompok : 19\n\n");
+
+int nim [8], i;
+for (i = 0; i<= 8; i++){
+printf ("Masukkan Nim ke-%i :", i+1);
+scanf ("%i", &nim[i]);
+}
+}
